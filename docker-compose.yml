@@ -1,0 +1,13 @@
+version: "3"
+services:
+  crow_server:
+    build:
+      context: ./cppbox
+      dockerfile: Dockerfile
+    #volumes:
+    #    - ./crow_server:/usr/src/crow_server
+    environment: 
+        - PORT=8080
+    ports: 
+        - 8080:8080
+      
