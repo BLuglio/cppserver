@@ -4,8 +4,8 @@ services:
     build:
       context: ./cppbox
       dockerfile: Dockerfile
-    #volumes:
-    #    - ./crow_server:/usr/src/crow_server
+    volumes:
+        - ./cppbox/crow_server/public:/usr/src/crow_server/public
     environment: 
         - PORT=8080
     ports: 

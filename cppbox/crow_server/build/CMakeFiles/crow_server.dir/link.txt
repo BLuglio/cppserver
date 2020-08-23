@@ -1,1 +1,0 @@
-/usr/local/bin/c++      CMakeFiles/crow_server.dir/main.o  -o crow_server -rdynamic -lboost_system -lboost_filesystem -pthread 
