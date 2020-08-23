@@ -3,7 +3,7 @@ A simple C++ web server using crow
 
 ## Description
 
-In this project I wanted to use the C++ language to code a basic web server, just for didactic purpose. I used the Crow library and configured the application to serve some static content (html pages, stylesheets, scripts, images). To test it out I wrote a super advanced script that just shows in the main page the current date and time; awesome, yay?
+In this project I wanted to use the C++ language to code a basic web server, just for didactic purpose. I used the Crow library (https://github.com/ipkn/crow) and configured the application to serve some static content (html pages, stylesheets, scripts, images). To test it out I wrote a super advanced script that just shows in the main page the current date and time; awesome, yay?
 
 ![](github/screenshot.png)
 
